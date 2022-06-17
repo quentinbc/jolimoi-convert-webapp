@@ -1,0 +1,46 @@
+
+#app {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+
+body{
+	background: whitesmoke;
+	color: #181818;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+.btn{
+	margin-right: 10px;
+}
+
+.box{
+	color: #181818;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.box-alert{
+	background-color: lightcoral;
+}
+
+.box-success{
+	background-color:lightgreen;
+}
+
+.box-load{
+	background-color:lightblue;
+}
+
