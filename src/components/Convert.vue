@@ -13,6 +13,7 @@
         />
       </div>
       <div class="form-group">
+        <button id="convertBtn" class="btn btn-primary" @click="convert">Convert</button>
         <button id="convertSseBtn" class="btn btn-primary" @click="convertSSE">Convert with SSE</button>
       </div>
 
@@ -79,6 +80,16 @@ export default {
       });
   },
   methods: {
+    convert() {
+			if(this.validateInput()){
+				this.clickDisplay();
+				axios
+					.get(`http://localhost:8000/api/convert/toroman/${this.integerStr}`)
+					.then((res) => this.resultSuccess(res.data))
+					.catch((err) => this.resultError(err))
+					;
+			}
+    },
 		convertSSE() {
 			if(this.validateInput()){
 				this.clickDisplay();
