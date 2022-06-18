@@ -1,6 +1,8 @@
 # Jolimoi Convert Roman WebApp
 
-This template should help get you started developing with Vue 3 in Vite.
+Test convert integer to roman numeral for Jolimoi.
+Use with server app : [jolimoi-convert-webapp](https://github.com/quentinbc/jolimoi-convert-webapp)
+
 
 ## Recommended IDE Setup
 
