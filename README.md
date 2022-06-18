@@ -35,19 +35,19 @@ npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Type-Check, Compile and Minify for Production (Work in progress)
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Run Unit Tests with [Vitest](https://vitest.dev/)  (Work in progress)
 
 ```sh
 npm run test:unit
 ```
 
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+### Run End-to-End Tests with [Cypress](https://www.cypress.io/)  (Work in progress)
 
 ```sh
 npm run build
